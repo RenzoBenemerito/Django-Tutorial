@@ -10,7 +10,6 @@
     text-decoration: none;
 }
 
-
 h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
 }
@@ -28,11 +27,20 @@ h1, h2, h3, h4 {
     width: 100%;
 }
 
+#blog_title{
+    display: inline;
+}
+
+#greeting{
+    font-size: 20pt;
+    margin-top: 15px;
+}
+
 .top-menu, .top-menu:hover, .top-menu:visited {
+    display: inline;
     color: #ffffff;
-    float: right;
     font-size: 26pt;
-    margin-right: 20px;
+    margin-left: 10px;
 }
 
 .post {
@@ -54,4 +62,8 @@ h1, h2, h3, h4 {
 
 .blog_text{
     margin-top: 17px;
+}
+
+.comment {
+    margin: 20px 0px 20px 20px;
 }
